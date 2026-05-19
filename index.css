@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link{
+    font-size: 18px;
+    color: #333;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: #ff5a5f;
+}
+
+.hero{
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-text{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-btn{
+    padding: 10px 30px;
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    background-color: #e04848;
+}
