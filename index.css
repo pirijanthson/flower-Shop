@@ -61,3 +61,37 @@ body{
 .hero-btn:hover{
     background-color: #e04848;
 }
+
+section{
+    overflow: hidden;
+}
+
+.feature-box{
+    padding: 30px 20px;
+    text-align: center;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover{
+    transform: translateY(-8px);
+}
+
+.feature-icon{
+    font-size: 40px;
+    color: #ff5a5f;
+    margin-bottom: 20px;
+}
+
+.feature-box h5{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-box p{
+    font-size: 16px;
+    color: #666;
+}
