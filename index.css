@@ -15,6 +15,12 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
 .nav-link{
     font-size: 18px;
     color: #333;
@@ -24,6 +30,12 @@ body{
 
 .nav-link:hover{
     color: #ff5a5f;
+}
+
+.d-flex{
+    display: flex;
+    align-items: right;
+    gap: 20px;
 }
 
 .hero{
@@ -164,4 +176,86 @@ section{
 .product-btn:hover{
     background: #0c0c0c;
     color: #f9f6f6;
+}
+
+.promo-box{
+    background: #ede3e3;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.promo-image{
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.promo-subtitle{
+    font-weight: 600;
+    color: #454343;;
+    margin-bottom: 15px;
+}
+
+.promo-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.promo-text{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.promo-btn{
+    padding: 12px 30px;
+    background: #ff5a5f;
+    color: #fdfbfc;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 12px 28px;
+}
+
+.promo-btn:hover{
+    background: #0c0c0c;
+    color: #f9f6f6;
+}
+
+.testimonial-card{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 35px 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover{
+    transform: translateY(-10px);
+}
+
+.testimonial-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.testimonial-rating{
+    color: gold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.testimonial-card p{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.7;
 }
