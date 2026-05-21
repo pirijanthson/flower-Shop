@@ -14,7 +14,7 @@
 
    <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
-      <a class="navbar-brand" href="#">Flower Shop</a>
+      <a class="navbar-brand" href="#">Kngu</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,18 +27,20 @@
             <a class="nav-link" href="#">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Pages</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
+          <li></li><li></li><li></li><li></li>
         </ul>
         <div class="d-flex">
+            <i class="fa-solid fa-moon dark-mode-toggle" id="darkModeBtn"></i>
             <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-regular fa-user"></i>
+            <i class="fa-solid fa-user"></i>
             <i class="fa-solid fa-cart-shopping"></i>
         </div>
       </div>
@@ -407,7 +409,7 @@
     </div>
   </section>
 
-  <section class="blog-section py-5">
+  <section id="blog" class="blog-section py-5">
     <div class="container">
       <div class="text-center mb-5">
         <h2 class="section-title">Latest Blog</h2>
@@ -455,6 +457,125 @@
       </div>
     </div>
   </section>
+
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-text">
+          Have questions or want to place an order? Get in touch with us!
+        </p>
+      </div>
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5">
+          <div class="contact-info mb-4">
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h5>Address</h5>
+                <p>123 Flower Street, Blossom City, FL 12345</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h5>Call Us</h5>
+                <p>+94 76 025 6922</p>
+              </div>
+            </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <h5>Email</h5>
+                  <p>info@flower-shop.com</p>
+                </div>
+              </div>
+                <div class="contact-item">
+                  <i class="fa-solid fa-clock"></i>
+                  <div>
+                    <h5>Working Hours</h5>
+                    <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <input type="text" class="form-control" placeholder="Subject" required>
+                </div>
+                <div class="mb-4">
+                  <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="contact-btn">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h2 class="footer-logo">Kngu</h2>
+          <p class="footer-text">
+            Bringing beauty and joy to your life with our fresh flower collection.  
+          </p>
+          <div class="footer-social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5 class="footer-title">Services</h5>
+          <ul class="footer-links">
+            <li><a href="#">Free Delivery</a></li>
+            <li><a href="#">Online Order</a></li>
+            <li><a href="#">Fresh Flowers</a></li>
+            <li><a href="#">24/7 Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5 class="footer-title">Newsletter</h5>
+          <p class="footer-text">
+            Subscribe for latest flower collections and offers.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your Email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p>
+          © 2026 FlowerShop. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
 
   <script>
     const poetryList = [
