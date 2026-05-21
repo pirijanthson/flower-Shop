@@ -78,7 +78,7 @@ section{
     overflow: hidden;
 }
 
-.feature-box{
+.Service-box{
     padding: 30px 20px;
     text-align: center;
     background: #fff;
@@ -87,23 +87,23 @@ section{
     transition: transform 0.3s ease;
 }
 
-.feature-box:hover{
+.Service-box:hover{
     transform: translateY(-8px);
 }
 
-.feature-icon{
+.Service-icon{
     font-size: 40px;
     color: #ff5a5f;
     margin-bottom: 20px;
 }
 
-.feature-box h5{
+.Service-box h5{
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.feature-box p{
+.Service-box p{
     font-size: 16px;
     color: #666;
 }
@@ -226,6 +226,11 @@ section{
     color: #f9f6f6;
 }
 
+.testimonial-section{
+    background: #fafafa;
+    padding: 50px 20px;
+}
+
 .testimonial-card{
     background: #fff;
     border-radius: 20px;
@@ -259,3 +264,231 @@ section{
     margin-bottom: 20px;
     line-height: 1.7;
 }
+
+.blog-card{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover{
+    transform: translateY(-10px);
+}
+
+.blog-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.blog-card:hover .blog-image{
+    transform: scale(1.05);
+}
+
+.blog-content{
+    padding: 20px;
+}
+
+.blog-content p{
+    font-size: 14px;
+    color: #ff5a5f;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.blog-content h5{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.blog-btn{
+    padding: 10px 20px;
+    background: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.blog-btn:hover{
+    background: #0c0c0c;
+    color: #f9f6f6;
+}
+
+.featured-section{
+    background: #fafafa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-nav-btn{
+    padding: 10px 20px;
+    background: transparent;
+    color: gray;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 15px;
+    font-weight: 600;
+    position: relative;
+}
+
+.product-nav-btn:hover{
+    color: #ff5a5f;
+}
+
+.product-nav-btn.active{
+    color: #ff5a5f;
+}
+
+.product-nav-btn.active::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #ff5a5f;
+    border-radius: 50%;
+}
+
+.featured-card{
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.featured-card:hover{
+    transform: translateY(-8px);
+}
+
+.featured-image{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: 0.4s ease;
+}
+
+.featured-card:hover .featured-image{
+    transform: scale(1.05);
+}
+
+.featured-content{
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-content h5{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.featured-content p{
+    font-size: 16px;
+    color: #ff5a5f;
+    font-weight: 600;
+}
+
+.poetry-section{
+    background: linear-gradient(to right, #fff0f3, #ffe5ec);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.poetry-box{
+    border-radius: 20px;
+    padding: 60px 30px;
+}
+
+.poetry-text{
+    font-size: 28px;
+    color: #444;
+    line-height: 1.8;
+    font-style: italic;
+    font-weight: 500;
+    max-width: 800px;
+    margin: 0 auto;
+    transition: 0.5s ease;
+}
+
+.expert-section{
+    background: #fafafa;
+    padding: 50px 20px;
+}
+
+.expert-card{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.expert-card:hover{
+    transform: translateY(-10px);
+}
+
+.expert-image{
+    width: 100%;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.expert-content{
+    padding: 25px;
+}
+
+.expert-content h5{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.expert-content p{
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.expert-social{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.expert-social i{
+    width: 38px;
+    height: 38px;
+    background: #ff5a5f;
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+    border-radius: 50%;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.expert-social i:hover{
+    color: #0c0c0c;
+}
+
