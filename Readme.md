@@ -8,10 +8,9 @@ This project showcases beautiful flower collections, featured products, customer
 # 🌐 Live Demo
 
 🔗 Live Website:  
-https://your-live-demo-link.netlify.app
+https://kngu-flower-shop-sigma.vercel.app/
 
-🔗 GitHub Repository:  
-https://github.com/yourusername/KNGU-Flower-Shop
+
 
 ---
 
