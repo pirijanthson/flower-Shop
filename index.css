@@ -43,7 +43,14 @@ body{
 }
 
 .hero{
-    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60') no-repeat center center/cover;
+    background: linear-gradient(
+        rgba(0,0,0,0.35),
+        rgba(0,0,0,0.5)
+    ),
+    url('asserts/Mothersday.avif');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -128,10 +135,13 @@ section{
 
 .product-card{
     background: #fff;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     overflow: hidden;
     transition: 0.3s;
+    padding: 20px;
+    height: 100%;
+    text-align: center;
 }
 
 .product-card:hover{
@@ -141,8 +151,9 @@ section{
 .product-image{
     width: 100%;
     height: 280px;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.4s;
+    padding: 20px;
 }
 
 .product-card:hover .product-image{
@@ -368,7 +379,7 @@ section{
     background: #fff;
     border-radius: 18px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    padding: 30px 20px;
+    padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
     overflow: hidden;
@@ -381,10 +392,11 @@ section{
 .featured-image{
     width: 100%;
     height: 280px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 12px;
     margin-bottom: 20px;
     transition: 0.4s ease;
+    padding: 20px;
 }
 
 .featured-card:hover .featured-image{
@@ -450,8 +462,8 @@ section{
 }
 
 .expert-image{
-    width: 100%;
-    height: 320px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
@@ -582,22 +594,22 @@ section{
     color: #f9f6f6;
 }
 
-/* Modern Footer CSS - Fixed Height & Alignment */
+
 .footer {
   background: linear-gradient(135deg, #0a2b1e 0%, #0d1f15 100%);
   color: white;
-  padding: 60px 0 20px; /* Reduced padding */
+  padding: 60px 0 20px; 
   position: relative;
 }
 
-/* Container */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* CSS Grid for perfect alignment */
+
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -605,13 +617,13 @@ section{
   margin-bottom: 40px;
 }
 
-/* Footer Columns */
+
 .footer-col {
   display: flex;
   flex-direction: column;
 }
 
-/* Logo Styles */
+
 .footer-logo {
   font-size: 28px;
   font-weight: 700;
@@ -623,7 +635,7 @@ section{
   display: inline-block;
 }
 
-/* Text Styles */
+
 .footer-text {
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.6;
